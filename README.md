@@ -18,21 +18,21 @@ This project consists of a module with the structure for creating an AWS Cloud T
 
 After everything installed, set your credentials in your AWS CLI using your command prompt
 
-```http
+```bash
   aws configure
 ```
 #### You might see this:
 
 (Required)
 
-```http
+```bash
   AWS Access Key ID [None]: (Insert your access key)
   AWS Secret Access Key [None]: (Insert your secret key)
 ```
 
 (Optional)
 
-```http
+```bash
   Default Region Name [None]: (Insert your access key)
   Default output format [None]: (Insert your secret key)
 ```
