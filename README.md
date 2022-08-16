@@ -1,10 +1,11 @@
-# How to? - Terraform File
+# How to? - Terraform Module
 
 
-This project consists of a module with the structure for creating an AWS Cloud Trail along with the resources needed to execute it. It also allows the configuration of each of these resources to be better inserted in your environment in a quickly and simply way, with Terraform. We are based on AWS Console and the official documentation https://registry.terraform.io/ for the creation of this module.
+This project consists of a module with the structure for creating an AWS Resource along with the resources needed to execute it. It also allows the configuration of each of these resources to be better inserted in your environment in a quickly and simply way, with Terraform. We are based on AWS Console and the official documentation https://registry.terraform.io/ for the creation of this module.
+
 ## Requirements
 
- - Install the latest Terraform Version
+ - Install Terraform
  - Install Visual Studio Code
  - Install AWS CLI
 
@@ -13,31 +14,6 @@ This project consists of a module with the structure for creating an AWS Cloud T
 - Terraform - https://www.terraform.io/downloads
 - Visual Studio Code - https://code.visualstudio.com/?wt.mc_id=vscom_downloads
 - AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-
-## Getting things ready
-
-After everything installed, set your credentials in your AWS CLI using your command prompt
-
-```bash
-  aws configure
-```
-#### You might see this:
-
-(Required)
-
-```bash
-  AWS Access Key ID [None]: (Insert your access key)
-  AWS Secret Access Key [None]: (Insert your secret key)
-```
-
-(Optional)
-
-```bash
-  Default Region Name [None]: (Insert your access key)
-  Default output format [None]: (Insert your secret key)
-```
-
-If you have already set your credentials before, you can change using `aws configure` again.
 
 ## Deploy
 
