@@ -50,10 +50,6 @@ To apply your resources in AWS. insert `yes` if you really want to apply them.
 
 You can check if your resources were created as you wanted in the aws console. Go to https://aws.amazon.com/pt/console/ and see the created resources and configs.
 
-
-
-
-
 ![Logo](https://fcortes.com.br/static/1fa99d7351e4f4c5b4313e933de57031/d9199/terraform_logo.png)
 ### Extra commands
 
