@@ -3,6 +3,10 @@
 
 This project consists of a module with the structure for creating an AWS Resource along with the configurations needed to execute it. It also allows the configuration of each of these resources to be better inserted in your environment in a quickly and simply way, with Terraform. We are based on AWS Console and the official documentation https://registry.terraform.io/ for the creation of this module.
 
+#### Idioms
+
+Português - https://github.com/ericmelomp/readmes/blob/main/readme-portugu%C3%AAs.md
+
 ## Requirements
 
  - Install Terraform

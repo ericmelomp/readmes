@@ -2,6 +2,10 @@
 
 Este projeto consiste em um módulo com a estrutura para criação de um recurso da AWS juntamente com as configurações necessárias para executá-lo. Também permite que a configuração de cada um desses recursos seja melhor inserida em seu ambiente de forma rápida e simples, com o Terraform. Baseamo-nos no AWS Console e na documentação oficial https://registry.terraform.io/ para a criação deste módulo.
 
+#### Idiomas
+
+English - https://github.com/ericmelomp/readmes/blob/main/README.md
+
 ## Requisitos
 
 - Instalar Terraform
