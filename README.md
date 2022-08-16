@@ -1,7 +1,7 @@
-# How to? - Terraform Module
+# How to? - Terraform Modules
 
 
-This project consists of a module with the structure for creating an AWS Resource along with the resources needed to execute it. It also allows the configuration of each of these resources to be better inserted in your environment in a quickly and simply way, with Terraform. We are based on AWS Console and the official documentation https://registry.terraform.io/ for the creation of this module.
+This project consists of a module with the structure for creating an AWS Resource along with the configurations needed to execute it. It also allows the configuration of each of these resources to be better inserted in your environment in a quickly and simply way, with Terraform. We are based on AWS Console and the official documentation https://registry.terraform.io/ for the creation of this module.
 
 ## Requirements
 
@@ -24,9 +24,9 @@ To deploy this project you have to clone the repository to your machine. In your
 ```
 Open this repository with Visual Studio Code and look for `tfvars` file.
 
-In `tfvars` insert the empty values that better correspond to your environment.
+In `tfvars` insert the empty values with the wanted informations of your resource that will be created.
 
-When everything is set, run:
+When everything is filled, run:
 - (You must be in the same diretory as all the files)
 
 ```bash
@@ -71,7 +71,7 @@ Check if you have something wrong with your code. (It doesn't avoid you for havi
     terraform plan -out (file name)
 ```
 
-Creates an specific file to your plan.
+Creates an specific file to your state.
 ## Authors
 
 - [TrendSolutions - Soluções Inteligentes](https://tsit.com.br/)
