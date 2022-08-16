@@ -103,4 +103,3 @@ Creates an specific file to your plan.
 ## Authors
 
 - [TrendSolutions - Soluções Inteligentes](https://tsit.com.br/)
-
