@@ -8,7 +8,7 @@ Este projeto consiste em um módulo com a estrutura para criação de um recurso
 - Instalar Visual Studio Code
 - Instalar AWS CLI
 
-## Download Links
+## Links para download
 
 - Terraform - https://www.terraform.io/downloads
 - Visual Studio Code - https://code.visualstudio.com/?wt.mc_id=vscom_downloads
@@ -41,7 +41,7 @@ Para inicializar o backend
 
 Para criar um `terraform.tfstate` e construir um state com os seus recursos. Você conseguirá ver todos os recursos e configurações que serão criadas, também.
 
-## Final Result
+## Resultado final
 
 Você pode verificar se seus recursos foram criados da maneiroq que você desejou no aws console. Clique em https://aws.amazon.com/pt/console/ e veja os recursos criados e as configurações.
 
@@ -66,6 +66,6 @@ Verifica se você tem algo de errado com o seu código. (isto não evita ter pro
 ```
 
 Cria um arquivo específico para o seu state
-## Authors
+## Autores
 
 - [TrendSolutions - Soluções Inteligentes](https://tsit.com.br/)
